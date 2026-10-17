@@ -166,7 +166,7 @@ I am an **Electronics & VLSI / Embedded Systems Engineer** specializing in **Dig
 &nbsp;
 [![GitHub](https://img.shields.io/badge/@HARIKRUTHIK-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HARIKRUTHIK)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/Hari_Kruthik_S_K-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hari-kruthik-sk)
+[![LinkedIn](https://img.shields.io/badge/Hari_Kruthik_S_K-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harikruthik-sk/)
 
 <br/>
 
