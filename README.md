@@ -54,18 +54,19 @@ I am an **Electronics & VLSI / Embedded Systems Engineer** specializing in **Dig
 
 ## Featured Projects
 
-### Precision-Scalable 4×4 Neural Processing Unit (PSMAC)
-> A synthesizable 16-tile systolic MAC accelerator with runtime precision scaling (INT8/INT4/INT2) on Altera Cyclone IV FPGA.
+### CNN Hardware Accelerator for Solar Panel Faults (B.Tech Capstone / FYP)
+> Deep-learning-driven photovoltaic defect classification paired with a synthesizable Zero-Aware MAC hardware accelerator.
 
-- **Microarchitecture** — 4×4 systolic MAC array featuring Scalable Bit-Block (SBB) Baugh-Wooley multipliers, Bit-Bypassing Units (BBU), and Reconfigurable Filtering Units (RFU)
-- **FPGA Synthesis** — Verified on Altera Cyclone IV `EP4CE115F29C7` at 40 MHz $F_{max}$, utilizing 0 DSP blocks (pure logic synthesis)
-- **Verification & Applications** — 2,588 automated testbench assertions passing; benchmarked on Chest X-Ray Pneumonia (91.4% accuracy) and ECG Arrhythmia (98.2% accuracy) workloads
+- **Transfer Learning Pipeline** — Trained EfficientNetV2-B0 across 21,660 aerial electroluminescence and thermal images spanning 4 fault classes (92.36% validation accuracy, 92.21% macro F1-score, 84.91% test accuracy)
+- **Zero-Aware MAC Architecture** — Synthesizable Verilog datapath (`rtl/zero_aware_mac.v`) featuring dynamic zero-operand detection and power gating to bypass redundant multiplication cycles
+- **Verification & Hardware Metrics** — Self-checking testbench (`tb/tb_zero_aware_mac.v`) validating bit-exact INT8 accumulation and cycle-accurate dynamic power reduction under high activation sparsity
 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog_HDL-FF6F00?style=flat-square&logoColor=white)
-![Cyclone IV FPGA](https://img.shields.io/badge/Altera_Cyclone_IV-003C71?style=flat-square&logo=intel&logoColor=white)
-![Quartus Prime](https://img.shields.io/badge/Intel_Quartus_Prime-0071C5?style=flat-square&logo=intel&logoColor=white)
 ![ModelSim](https://img.shields.io/badge/ModelSim-002B49?style=flat-square&logoColor=white)
-[![View Repository](https://img.shields.io/badge/View_Repository_%E2%86%92-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HARIKRUTHIK/Precision-Scalable-4x4-NPU)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[![View Repository](https://img.shields.io/badge/View_Repository_%E2%86%92-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HARIKRUTHIK/Solar-Panel-Fault-Hardware-Accelerator)
 
 ---
 
